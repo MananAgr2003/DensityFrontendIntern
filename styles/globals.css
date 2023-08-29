@@ -5,4 +5,14 @@
 body {
   padding-left: 30px;
   padding-right: 30px;
+  overflow-x: hidden;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
