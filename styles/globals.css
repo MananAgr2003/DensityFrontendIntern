@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 body {
-  padding-left: 30px;
-  padding-right: 30px;
   overflow-x: hidden;
 }
 
@@ -15,4 +13,66 @@ body {
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
+}
+
+.sticky-heading {
+  position: relative;
+  z-index: 2;
+  transition: z-index 0.3s ease-in-out;
+}
+
+.sticky1 {
+  position: sticky;
+  top: 70px;
+  background-color: white; /* Adjust as needed */
+
+  z-index: 3; /* Keep the heading above content when sticky */
+}
+
+.animated-text {
+  font-family: "Dancing Script", cursive;
+}
+
+.glow-effect {
+  position: relative; /* Required for pseudo-element positioning */
+  box-shadow: 0 0 80px rgba(148, 0, 211, 0.7); /* Darker purple glow */
+}
+
+.glow-effect::before {
+  content: "";
+  position: absolute;
+  top: -9px; /* Adjust the positioning based on your design */
+  left: -10px; /* Adjust the positioning based on your design */
+  width: 40px; /* Adjust the size based on your design */
+  height: 40px; /* Adjust the size based on your design */
+  border-radius: 50%; /* Create a circular shape */
+  background-color: rgba(148, 0, 211, 0.3); /* Darker purple color */
+  z-index: 10; /* Place the circle behind the dot */
+}
+/* Example of using tailwind CSS for gradient */
+.from-purple-500 {
+  background: linear-gradient(to bottom, #8a2be2, #8a2be2);
+}
+
+.to-purple-700 {
+  background: linear-gradient(to bottom, #8a2be2, #8a2be2);
+}
+
+.hidden-button {
+  
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-box:hover .hidden-button {
+ 
+  opacity: 1;
 }
