@@ -3,6 +3,10 @@
 
 Manan Agrawal Density Assessment!
 
+# Very Important Points
+
+Use "Npm install --legacy-peer-deps" (I Have Used Some Old MUI library)
+
 Do Not Open This Project On Mobile Devices (please).
 
 A dynamic and interactive project powered by Next.js, Tailwind CSS, ChatGPT, and GreenSock Animation Platform.
