@@ -42,7 +42,7 @@ const WorkWithSection = () => {
             <div>
               <p className="font-bold text-xl mt-4">About</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptas aspernatur ab officia nobis doloribus facilis perspiciatis fugit incidunt, numquam tenetur a reiciendis veritatis cupiditate.
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ const WorkWithSection = () => {
           <div className="bg-[#FEF7F1] p-4 rounded-3xl shadow-md w-[80%] h-[250px] flex flex-col relative bottom-8 animate-box">
             <p className="font-bold text-xl mt-4">Product</p>
             <p className="mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates facilis quas sit non ullam eius iure! Quia molestiae, sit voluptas maiores in dolores deleniti.
             </p>
           </div>
         </div>
