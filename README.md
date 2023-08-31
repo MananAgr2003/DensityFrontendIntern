@@ -1,5 +1,7 @@
 # Project Name
 
+[Visit the Live Demo](https://mananagrawaldensityui.vercel.app/)
+
 Manan Agrawal Density Assessment!
 
 A dynamic and interactive project powered by Next.js, Tailwind CSS, ChatGPT, and GreenSock Animation Platform.
