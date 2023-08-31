@@ -1,12 +1,12 @@
 # Project Name
 
-![Project Logo](./path/to/logo.png)
+Manan Agrawal Density Assessment!
 
 A dynamic and interactive project powered by Next.js, Tailwind CSS, ChatGPT, and GreenSock Animation Platform.
 
 ## Description
 
-Welcome to Project Name! This project showcases the seamless integration of modern web technologies to create an engaging and interactive user experience. The project leverages Next.js for server-side rendering, Tailwind CSS for styling, ChatGPT for natural language processing, and GreenSock for smooth animations.
+Welcome to Density Assessment! This project showcases the seamless integration of modern web technologies to create an engaging and interactive user experience. The project leverages Next.js for server-side rendering, Tailwind CSS for styling, ChatGPT for natural language processing, and GreenSock for smooth animations.
 
 The primary focus of this project is to demonstrate the synergy between cutting-edge technologies in web development. It provides an interactive user interface with animations and real-time interactions, all while using the power of AI through ChatGPT for enhanced user engagement.
 
