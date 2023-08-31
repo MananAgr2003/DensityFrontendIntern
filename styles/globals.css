@@ -14,6 +14,13 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+.purple-scrollbar::-webkit-scrollbar {
+  background-color: white;
+  color: #8a2be2;
+  width: 5px;
+  border-radius: 10px;
+   /* Safari and Chrome */
+}
 
 .sticky-heading {
   position: relative;
@@ -70,6 +77,15 @@ body {
   margin-top: 10px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+}
+
+.hover-box:hover{
+  cursor: url('../app/assets/dots.svg') 5 5, auto;
+}
+.hidden-button:hover{
+  cursor: url('../app/assets/dots.svg') 5 5, auto;
+
+  
 }
 
 .hover-box:hover .hidden-button {

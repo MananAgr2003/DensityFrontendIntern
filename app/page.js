@@ -9,6 +9,9 @@ import BoxSection from "@components/BoxSection";
 import ScrollComponent from "@components/ScrollComponent";
 import TakeTest from "@components/TakeTest";
 import Careers from "@components/Careers";
+import Info from "@components/Info";
+import DotsComponent from "@components/DotsSection";
+import WorkWithSection from "@components/WorkWithUs";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -96,6 +99,8 @@ export default function Home() {
 
       <BoxSection></BoxSection>
 
+      <Info></Info>
+
      
       <ScrollComponent></ScrollComponent>
 
@@ -116,43 +121,14 @@ export default function Home() {
           </p>
         </div>
       </div>
+      
+   
+      <DotsComponent></DotsComponent>
       <TakeTest></TakeTest>
-      <div className="flex p-6 mt-72 mb-72" >
-        <div className="w-1/3 p-4">
-          <p className="text-3xl font-semibold">EQ beats IQ</p>
-        </div>
-        <div className="w-1/3 py-4 px-16">
-          <p className="text-lg">
-            People with high emotional intelligence (EQ) live more fullfilled
-            lives and tend to be happier and have healthier reationships.
-          </p>
-        </div>
-        <div className="w-1/3 py-4 px-16">
-          <p className="text-lg">
-            They are more successfull in their pursuits and make for inspiring
-            leaders. According to science, they earn $29K a year.
-          </p>
-        </div>
-      </div>
+      <WorkWithSection></WorkWithSection>
 
       <Careers></Careers>
-      <div className="flex p-6 mt-72 mb-72" >
-        <div className="w-1/3 p-4">
-          <p className="text-3xl font-semibold">EQ beats IQ</p>
-        </div>
-        <div className="w-1/3 py-4 px-16">
-          <p className="text-lg">
-            People with high emotional intelligence (EQ) live more fullfilled
-            lives and tend to be happier and have healthier reationships.
-          </p>
-        </div>
-        <div className="w-1/3 py-4 px-16">
-          <p className="text-lg">
-            They are more successfull in their pursuits and make for inspiring
-            leaders. According to science, they earn $29K a year.
-          </p>
-        </div>
-      </div>
+      
     </>
   );
 }
